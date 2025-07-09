@@ -3,6 +3,6 @@ displayName: Worlds
 author: Raviravirego76466
 description: New Worlds!
 version: 1.0
-minGameVersion: 149
+minGameVersion: 146
 dependencies: [ ]
 hidden: true
