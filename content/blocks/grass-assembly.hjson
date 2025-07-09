@@ -1,0 +1,30 @@
+type: UnitAssembler
+name: Grass Assembly Bay
+description: Creates Grass units using payloads.
+size: 2
+category: units
+research: gress
+requirements: [
+  copper/12
+]
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: gress
+    requirements: [
+      copper-wall/0
+    ]
+    time: 720
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: pyre
+    requirements: [
+      copper-wall/0
+    ]
+    time: 720
+  }
+]
+squareSprite: false
+areaSize: 2
+researchCostMultiplier: 0.1
