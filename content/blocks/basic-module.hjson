@@ -1,0 +1,10 @@
+type: UnitAssemblerModule
+name: Basic Assembler 
+description: Increases an assemblers' tier by 1 when placed next to its bounding box. May be used as an additional payload input.
+size: 2
+category: units
+research: grass-assembly
+requirements: [
+  copper/220
+]
+researchCostMultiplier: 0.3
